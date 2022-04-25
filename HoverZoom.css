@@ -1,0 +1,51 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cards{
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.Card{
+    width: inherit;
+    height: inherit;
+    /* border: 1px solid rgba(255, 255, 255, 0.40);  */
+    background: url('./maharajImage.jpg') center no-repeat;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.Card:hover{
+    transform: scale(1.2);
+}
+
+.Text{
+    height: 50px;
+    width: 100%;
+    background-color: #00089947;
+    position: absolute;
+    top: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CardText{
+    color: white;
+    font-size: 20px;
+    /* position: absolute; */
+    bottom: 20%;
+    right: 40%;
+    font-family: 'Roboto';
+}
